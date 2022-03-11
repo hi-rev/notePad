@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>notePad</title>
+    <link href="http://fonts.googleapis.com/earlyaccess/nanumpenscript.css" rel="stylesheet"> <!-- 구글 폰트 -->
+</head>
+<body>
+    <div id="loginDiv">
+        <h1 id="loginH1"></h1>
+        <h2 id="loginH2"></h2>
+
+        <form class="hidden" id="login-form">
+            <h1>Notebook</h1>
+            <!--input 에서 required 속성은 입력란이 다 채워져야만 작동하게 만든다.-->
+            <input id="input1" required maxlength="15" type="text" placeholder="What's your name?"/>
+            <input id="input2" type="submit" value="Submit"/>
+        </form>
+    </div>
+
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    height: 100vh; /* 높이의 전체 비율을 100%로 설정 */
+    background: linear-gradient(lightpink, #FFF); /* 바탕색 핑크 그라데이션 */
+}
+
+#loginDiv {
+    text-align: center; /* 중앙 정렬 */
+}
+
+.hidden {
+    display: none; /* 안보이게 하기 */
+}
+
+h1 {
+    font-family: fantasy; /* 폰트 지정 */
+}
+
+#loginH2 {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+#input1 {
+    border-radius: 7px;
+    border: 1px solid #ffdce2;
+}
+
+/* placeholder 폰트 변경 */
+input::placeholder {
+    font-style: italic;
+}
+
+#input2 {
+    border-radius: 7px;
+    border: 1px solid #ffdce2;
+    background-color: #ffdce2;
+}
+
+
+
