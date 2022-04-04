@@ -53,5 +53,20 @@ input::placeholder {
     flex-grow: 1; /* item 길이 container 에 맞게 늘리기 */
 }
 
+#clock {
+    margin-bottom: 20px;
+}
+
+#toDo {
+    border-radius: 7px;
+    border: 1px solid pink;
+}
+
+#toDoButton {
+    border-radius: 7px;
+    border: 1px solid pink;
+    background-color: #ffdce2;
+}
+
 
 

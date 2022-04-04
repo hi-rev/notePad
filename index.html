@@ -20,14 +20,23 @@
     </div>
 
     <div class="container"> <!--Flex Container-->
-        <div class="item">  <!--Flex Item-->
+        <div class="item">  <!--First Flex Item-->
             <div id="clock">2022년 3월 17일 00:00:00</div>
+
+            <form id="toDoForm"> <!--toDoList 제출을 위한 form-->
+                <input id="toDo" type="text" placeholder="Write your todo list"> <!--toDoList 입력-->
+                <input id="toDoButton" type="submit" value="Submit"> <!--toDoList 버튼-->
+            </form>
+            <ul id="toDoList"></ul>
         </div>
-        <div class="item">
+
+
+        <div class="item"> <!--Second Flex Item-->
         </div>
     </div>
 
     <script src="login.js"></script>
     <script src="clock.js"></script>
+    <script src="toDoList.js"></script>
 </body>
 </html>
