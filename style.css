@@ -68,5 +68,16 @@ input::placeholder {
     background-color: #ffdce2;
 }
 
+.toDoLi {
+    padding-bottom: 20px;
+}
+
+.toDoLiButton {
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid pink;
+}
+
 
 

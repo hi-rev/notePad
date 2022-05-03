@@ -32,11 +32,13 @@ function toDoSave() {
 function toDoPaint(newToDo) {
     // createElement 는 지정한 tagName 의 HTML 요소를 만들어 반환함
     const li = document.createElement("li"); // li 요소 만들기
+    li.classList.add("toDoLi");
     li.id = newToDo.id;
     const span = document.createElement("span"); // span 요소 만들기
     span.innerText = newToDo.text;
     const button = document.createElement("button"); // button 요소 만들기
-    button.innerText = "❌" // 삭제 버튼
+    button.classList.add("toDoLiButton");
+    button.innerText = "🌸" // 삭제 버튼
     button.addEventListener("click", toDoDel);
     li.appendChild(span); // span 을 li 안에 넣어줌
     li.appendChild(button); // button 을 li 안에 넣어줌
