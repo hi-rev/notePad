@@ -79,5 +79,23 @@ input::placeholder {
     border: 1px solid pink;
 }
 
+.container1_1 {
+    height: 200px;
+    flex: none;
+    flex-direction: row; /* 기본값: 왼쪽 -> 오른쪽 */
+    align-items: stretch; /* 수직 정렬 */
+    display: flex;
+}
+
+.item1_1 {
+    text-align: center;
+    border: gray 1px solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1; /* item 길이 container 에 맞게 늘리기 */
+}
+
 
 
